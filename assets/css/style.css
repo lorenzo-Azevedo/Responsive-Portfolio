@@ -1,0 +1,314 @@
+body {
+    background-image: url('../images/cubes.jpg');
+    background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.wrapper {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: whitesmoke;
+    height: 90px;
+}
+.header {
+    background-color: #e5e4e2;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    width: 400px;;
+    height: 64px;
+    text-align: center;
+    padding-top: 26px;
+    position: static;
+    float: left;
+    margin-left: 10%;
+    font-size: 40px;
+
+}
+.links {
+    padding-left: 2px;
+    margin-top: 44px;
+    width: 270px;
+    float: right;
+    margin-right: 10%;
+    font-size: 16px;
+    color: black;
+    background: #e5e4e2;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:unvisited {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    background: #;
+    opacity: .8;
+    color: black;
+}
+.about {
+    width: 960px;
+    background-color: whitesmoke;
+    margin: 0 auto 0 auto;
+    top: 130px;
+    position: relative;
+    padding: 1px 20px 20px 20px;
+    font-size: 30px;
+    height: 550px;
+}
+.content_header {
+    font-size: 35px;
+    color: #black;
+    font-family: 'Courier New', Courier, monospace;
+}
+.profile_pic {
+    float: left;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+P {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+}
+footer {
+    background: #4B5320;
+    opacity: .90;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: white;
+    border-top: 15px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 50px;
+    border-top-color: #e5e4e2;
+    border-style: solid;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+.Contact {
+    width: 960px;
+    background-color: whitesmoke;
+    margin: 0 auto 0 auto;
+    top: 130px;
+    position: relative;
+    padding: 1px 20px 20px 20px;
+    height: 500px;
+}
+.content_header {
+    font-size: 35px;
+    color: #black;
+    font-family: 'Courier New', Courier, monospace;
+}
+input {
+    width: 953px;
+}
+#message {
+    height: 200px;
+    width: 953px;
+    text-align: center;
+}
+#submit {
+    background: #e5e4e2;
+    color: black;
+    width: 90px;
+    font-size: 15px;
+    border-radius: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}#submit:hover {
+    background: #B8860B;
+    color: white;
+    width: 90px;
+    font-size: 15px;
+    border-style: 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.footer_contact {
+    background: #B8860B;
+    opacity: .90;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: white;
+    border-top: 15px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 50px;
+    border-top-color: #e5e4e2;
+    border-style: solid;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+.portfolio {
+    width: 960px;
+    background-color: whitesmoke;
+    margin: 0 auto 0 auto;
+    top: 130px;
+    position: relative;
+    padding: 1px 20px 20px 20px;
+    height: 650px;
+}
+.content_header {
+    font-size: 35px;
+    color: #black;
+    font-family: 'Courier New', Courier, monospace;
+}
+td {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+table {
+    width: 960px;
+    margin-top: 44px;
+}
+.links_portfolio {
+    text-decoration: none;
+    position: absolute;
+    top: 150px;
+    left: 59px;
+    background-color: #e5e4e2;
+    padding-left: 48px;
+    padding-right: 49px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.links_portfolio:hover {
+    background-color: #979aaa;
+    color: white;
+    opacity: .95;
+}
+.footer_portfolio {
+    background: #979aaa;
+    opacity: .90;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: white;
+    border-top: 15px;
+    border-left: 0px;
+    border-bottom: 0px;
+    height: 50px;
+    border-top-color: #e5e4e2;
+    border-style: solid;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+    font-family: cursive;
+    letter-spacing: 5px;
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        background-color: #e5e4e2;
+    }
+    .header {
+        float: none;
+        margin-left: 18%;
+    }
+    .links {
+        /*Need something to stick this to the top... */
+        padding-left: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        float: left;
+        color: black;
+        background: whitesmoke;
+    }
+    .about {
+        width: 500px;
+        height: 700px;
+        background-color: whitesmoke;
+        top: 180px;
+    }
+    .profile_pic {
+        float: bottom;
+        margin-right: 25px;
+        margin-top: 10px;
+        width: 480px;
+    }
+    P {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .Contact {
+        width: 500px;
+    }
+    input {
+        width: 500px;
+    }
+    #message {
+        width: 500px;
+    }
+    /* As I made my portfolio using a table i cant find anything that will allow me to reconfigure tables using CSS... will I have to edit the basic code?*/
+}
+
+@media screen and (max-width: 768px) /*Why all of a sudden is this one not working!? This happened to me with the previous one... i spent 5 hours trying different functions and meta tags in html and different @media tags to get it to work then wokeup and voila it worked without me changing anything... I am very confused by this!!!*/{
+    body {
+        background-image: none;
+    }
+    .wrapper {
+        background-color: #e5e4e2;
+    }
+    .header {
+        float: none;
+        margin-left: 18%;
+    }
+    .links {
+        /*Need something to stick this to the top... */
+        padding-left: 30%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 100%;
+        float: left;
+        color: black;
+        background: whitesmoke;
+    }
+    .about {
+        width: 500px;
+        height: 700px;
+        background-color: whitesmoke;
+        top: 180px;
+    }
+    .profile_pic {
+        float: bottom;
+        margin-right: 25px;
+        margin-top: 10px;
+        width: 480px;
+    }
+    P {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .Contact {
+        width: 500px;
+    }
+    input {
+        width: 500px;
+    }
+    #message {
+        width: 500px;
+    }
+    /* As I made my portfolio using a table i cant find anything that will allow me to reconfigure tables using CSS... will I have to edit the basic code?*/
+}
